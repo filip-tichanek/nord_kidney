@@ -5,7 +5,7 @@ This Repository shows R code and source data used in the publication [*Survival 
 
 All data used were downloaded from the NORDCAN website.
 
-For estiamtion of non-linear trends in survival, we used the [NORDCAN](https://nordcan.iarc.fr/en) data that include the estimates of 1-year and 5-years survival and their confidence intervals, based on the Pohar Perme estimator. This code utilizes the pre-calculated NORDCAN data (including the pre-calculated confidence intervals) to get continuous survival estimates and estimation of the magnitude of the change (slope) across a continuous timescale. The code also estimates 95% credible intervals for both the survival rate and the magnitude of change, taking into account survival estimates. This is done via Generalized Additive Models in the Bayesian framework with the  [***brms***](https://cran.r-project.org/web/packages/brms/index.html) package
+For the estimation of non-linear trends in survival, we used the [NORDCAN](https://nordcan.iarc.fr/en) data that include the estimates of 1-year and 5-years survival and their confidence intervals, based on the Pohar Perme estimator. This code utilizes the pre-calculated NORDCAN data (including the pre-calculated confidence intervals) to get continuous survival estimates and estimation of the magnitude of the change (slope) across a continuous timescale. The code also estimates 95% credible intervals for both the survival rate and the magnitude of change, taking into account survival estimates. This is done via Generalized Additive Models in the Bayesian framework with the  [***brms***](https://cran.r-project.org/web/packages/brms/index.html) package
 
 Full citation:
 
